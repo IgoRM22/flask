@@ -3,4 +3,4 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/')
 def hello_world():
-    return '<p>Hello from Flask!</p><table><tr><td><b>Aluno:</b></td><td>Igor Ramos Almeida</td></tr><tr><td><b>Prontuário:</b></td><td>PT3019284</td></tr></table>'
+    return '<p>Teste!</p><table><tr><td><b>Aluno:</b></td><td>Igor Ramos Almeida</td></tr><tr><td><b>Prontuário:</b></td><td>PT3019284</td></tr></table>'
