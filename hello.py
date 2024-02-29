@@ -9,7 +9,7 @@ def index():
 
 @app.route("/user/Igor_Ramos/PT3019284/IFSP")
 def user():
-    return '<h1>Avaliação contínua: Aula 030</h1><h2>Aluno: Igor_Ramos</h2><h2>Prontuário: PT3019284</h2><h2>Instituição: IFSP</h2><p><a href="/">Voltar</a></p>'
+    return '<h1>Avaliação contínua: Aula 030</h1><h2>Aluno: Igor_Ramos_Abacate</h2><h2>Prontuário: PT3019284</h2><h2>Instituição: IFSP</h2><p><a href="/">Voltar</a></p>'
 
 @app.route("/contextorequisicao")
 def context():
